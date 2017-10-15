@@ -11,6 +11,7 @@ public class Mole : MonoBehaviour {
 
     private Vector3 targetPosition;
     private float disappearTimer = 0f;
+    private bool attackable = false;
 
     // Use this for initialization
     void Awake() {
@@ -34,6 +35,7 @@ public class Mole : MonoBehaviour {
     }
 
     public void Rise() {
+        attackable = true;
         targetPosition = new Vector3(
             transform.localPosition.x,
             maxVisibleHeight,
@@ -43,8 +45,13 @@ public class Mole : MonoBehaviour {
         disappearTimer = disappearDuration;
     }
 
-    public void OnHit() {
+    public bool OnHit() {
         Hide();
+        if (attackable) {
+            attackable = false;
+            return true;
+        }
+        return false;
     }
 
     private void Hide() {

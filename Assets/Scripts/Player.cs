@@ -18,9 +18,11 @@ public class Player : MonoBehaviour {
             if (Physics.Raycast(transform.position, mainCamera.transform.forward, out raycastHit)) {
                 if (raycastHit.transform.GetComponent<Mole>() != null) {
                     Mole mole = raycastHit.transform.GetComponent<Mole>();
-                    mole.OnHit();
+                    bool isMoleAttackable = mole.OnHit();
                     hammer.Hit(mole.transform.position);
-                    score++;
+                    if (isMoleAttackable) {
+                        score++;
+                    }
                 }
             }
         }
