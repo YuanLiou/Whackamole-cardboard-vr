@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: fb8de3d78c7c246ec870475d929d1d36
+timeCreated: 1508041898
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cube_003
+    100002: Plane
+    100004: //RootNode
+    400000: Cube_003
+    400002: Plane
+    400004: //RootNode
+    2300000: Cube_003
+    2300002: Plane
+    3300000: Cube_003
+    3300002: Plane
+    4300000: Plane
+    4300002: Cube_003
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arcade_001_Base_Color
+    second: {fileID: 2100000, guid: 6e5593ccc275f4108a5cbacb48071b27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arcade_002_Base_Color
+    second: {fileID: 2100000, guid: 8f81fd13c971e4c6eb417d3e08845e16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arcade_003_Base_Color
+    second: {fileID: 2100000, guid: 5b255af28225644f88261c51f1060568, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arcade_Game_Plate
+    second: {fileID: 2100000, guid: 133ce8f1092ba45619ee4ea31cded952, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arcade_Machine_Screen_Color
+    second: {fileID: 2100000, guid: e1a644c9e8bdb42a6806c2d59e39e673, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arcade_Roof_Color
+    second: {fileID: 2100000, guid: 042d3a41e13254292ab126b2137349eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue_Button_Color
+    second: {fileID: 2100000, guid: 72229d471dc75487bab0022d2c7d2daa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Control_Panel_Color
+    second: {fileID: 2100000, guid: 36ce99970291b40e492a5db76252d1aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Color
+    second: {fileID: 2100000, guid: c30f0c9d239494ff183880e4e5ba66af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_Color
+    second: {fileID: 2100000, guid: 349a8d719f92a4ff5ba3123ad8fdebc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green_Button_Color
+    second: {fileID: 2100000, guid: 6ae21cab63d98400b84c2303812066c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light_Blue_Light_Color
+    second: {fileID: 2100000, guid: f19cba7661ba8409b8b4b7e0aa43d597, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light_Purple_Light_Color
+    second: {fileID: 2100000, guid: d2e7f77dc495947ebab17a4beda8eb18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Panel_Color
+    second: {fileID: 2100000, guid: b382a9dc0895d496380062ebe97bd46f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mole_Base_Color
+    second: {fileID: 2100000, guid: 4acfba7c80ff34bc6932b5e9d23c2e0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mole_Black_Color
+    second: {fileID: 2100000, guid: b90651bf8a46f4ef1b436899b7170146, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mole_EyeWhite_Color
+    second: {fileID: 2100000, guid: 792167a5888964147b74b33ba76745c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mole_Nose_Color
+    second: {fileID: 2100000, guid: ee2511d259e1648b4b29510f5373b472, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mole_Snout_Color
+    second: {fileID: 2100000, guid: b54ec9c1e5aa84036b68d8c2950221de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mole_Teeth_Color
+    second: {fileID: 2100000, guid: b2889497baacc4d5a934196f27599ab4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mole_Wiskers_Color
+    second: {fileID: 2100000, guid: efae8fc0692854b1183b966b29c53489, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PingBall_Bottom_Chassis_Color
+    second: {fileID: 2100000, guid: 3f23952dc26b9462299eaef2cc417c4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PingBall_Button_Color
+    second: {fileID: 2100000, guid: 8efb6b1d163f44d33ad59f02f93383be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PingBall_Game_Color
+    second: {fileID: 2100000, guid: 639282c76a8f541ed97013604547eb2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PingBall_Leg_Color
+    second: {fileID: 2100000, guid: a0224f716069947c08f98c394a3f227d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PingBall_Screen_Color
+    second: {fileID: 2100000, guid: a34ada53d9ac545cb884e2d5e125a398, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PingBall_base_color
+    second: {fileID: 2100000, guid: 06c19cc7112c54d37b426982715b3b6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Button_Color
+    second: {fileID: 2100000, guid: 0565e10ed6ad2439abded77dd8eb574d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Color
+    second: {fileID: 2100000, guid: 6c56afe528c084019ab655fa655a9b45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Decal_Color
+    second: {fileID: 2100000, guid: 49c9e64d099824af9b120967261770b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Whackahole_Green_Color
+    second: {fileID: 2100000, guid: 1291818cc81d944938da4f52304ef70e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Whackahole_Grid_Color
+    second: {fileID: 2100000, guid: 10400acbea389480ea83ec984bac031e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Whackahole_Hide_Hole_Color
+    second: {fileID: 2100000, guid: f1d74d22c132b405ca131cb65b0a1859, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Whackahole_Machine_Black_Screen_Color
+    second: {fileID: 2100000, guid: 9ddf735d8006044c4a3b20231c8aab63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Color
+    second: {fileID: 2100000, guid: 6765c9a2ef25d4e50a63a9fa4f52ea9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow_Button_Color
+    second: {fileID: 2100000, guid: ce29f1b9de8c0436a986b08d827bbccc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: joystick_base_color
+    second: {fileID: 2100000, guid: 66056e1ad265d459f8d25858e671c15d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: joystick_color
+    second: {fileID: 2100000, guid: 0345cc4f8f5e14cee92f82f9ae3a8b56, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
