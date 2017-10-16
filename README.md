@@ -2,8 +2,8 @@
 Whack a mole cardboard VR games. Made by Unity. <br>
 Use Google VR Library
 
-![GIF preview!](https://i.imgur.com/NlhOdCT.gif)
-
+gif preview:
+[Go Imgur](https://i.imgur.com/NlhOdCT.gifv)
 
 ## Try it!
 [1_0_release.apk](https://rayuan.tw/files/1_0_release.apk) <br>
