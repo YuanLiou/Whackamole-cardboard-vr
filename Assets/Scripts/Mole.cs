@@ -12,6 +12,7 @@ public class Mole : MonoBehaviour {
     private Vector3 targetPosition;
     private float disappearTimer = 0f;
     private bool attackable = false;
+    private AudioSource hitSound;
 
     // Use this for initialization
     void Awake() {
@@ -22,6 +23,10 @@ public class Mole : MonoBehaviour {
             );
 
         transform.localPosition = targetPosition;
+    }
+
+    void Start() {
+        hitSound = GetComponentInChildren<AudioSource>();
     }
 
     // Update is called once per frame
@@ -46,6 +51,11 @@ public class Mole : MonoBehaviour {
     }
 
     public bool OnHit() {
+        if (hitSound.isPlaying) {
+            hitSound.Stop();
+        }
+        hitSound.Play();
+
         Hide();
         if (attackable) {
             attackable = false;

@@ -1124,7 +1124,7 @@ MonoBehaviour:
   spawnDuration: 1.5
   spawnDecrement: 0.1
   minimumSpawnDuration: 0.5
-  gameTimer: 5
+  gameTimer: 20
 --- !u!1 &1239715413
 GameObject:
   m_ObjectHideFlags: 0
