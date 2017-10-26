@@ -5,6 +5,10 @@ Use Google VR Library
 gif preview:
 [Go Imgur](https://i.imgur.com/NlhOdCT.gifv)
 
+![Imgur](https://i.imgur.com/Lako5EA.png)
+![Imgur](https://i.imgur.com/RGgIYe3.png)
+![Imgur](https://i.imgur.com/aKiyTur.png)
+
 ## Try it!
 [1_0_release.apk](https://rayuan.tw/files/1_0_release.apk) <br>
 build 20171017 <br>
